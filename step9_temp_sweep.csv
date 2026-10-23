@@ -1,0 +1,5 @@
+temperature_C,initial_SOC,A_battery_accepted_kJ,B_battery_accepted_kJ,C_battery_accepted_total_kJ,C_battery_accepted_during_stop_kJ,C_capacitor_transfer_to_battery_kJ,C_energy_left_in_capacitor_kJ,C_capacitor_energy_balance_residual_J,C_minus_B_battery_energy_kJ,B_minus_A_battery_energy_kJ,A_battery_rejected_kJ,A_final_SOC,B_final_SOC,C_final_SOC
+40.0,0.5,103.500606,103.603399,103.603399,103.603399,0.0,0.0,0.0,0.0,0.102793,0.0,0.500355,0.500355,0.500355
+25.0,0.5,103.500606,103.603399,103.603399,103.603399,0.0,0.0,0.0,0.0,0.102793,0.0,0.500355,0.500355,0.500355
+10.0,0.5,103.500606,103.603399,103.603399,103.603399,0.0,0.0,0.0,0.0,0.102793,0.0,0.500351,0.500352,0.500352
+-5.0,0.5,0.0,0.0,0.0,0.0,0.0,94.863045,-0.0,0.0,0.0,103.500606,0.5,0.5,0.5

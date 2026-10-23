@@ -1,0 +1,8 @@
+parameter,config,low_input,high_input,baseline_kJ,low_kJ,high_kJ,low_delta_kJ,high_delta_kJ,swing_kJ,note
+Charge-current limit,B,105.0,195.0,103.314659,91.129919,103.603399,-12.18474,0.288741,12.47348,ASSUMED value; +/-30%
+Generator efficiency,B,0.85,0.95,103.314659,97.847655,108.201969,-5.467004,4.887311,10.354314,ASSUMED value; +/-0.05 absolute
+Initial SOC,B,0.05,0.35,103.314659,102.499642,103.602836,-0.815017,0.288177,1.103194,Study choice: baseline 0.20 +/-0.15
+Battery internal resistance,B,0.07,0.13,103.314659,103.15315,103.440444,-0.161509,0.125785,0.287294,ASSUMED value; +/-30%
+Battery temperature,B,10.0,40.0,103.314659,103.466388,103.314659,0.151729,0.0,0.151729,Study choice: baseline 25 C +/-15 C
+Supercap capacitance (C only),C,3.5,6.5,103.573473,103.573475,103.573472,2e-06,-1e-06,3e-06,ASSUMED value; +/-30%; affects C only
+Motor regen power limit,B,256200.0,475800.0,103.314659,103.314659,103.314659,0.0,0.0,0.0,Spec-sheet value applied to one axle (known limitation); +/-30%
